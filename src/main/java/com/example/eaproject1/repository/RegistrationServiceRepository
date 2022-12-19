@@ -1,0 +1,11 @@
+package com.example.eaproject1.repository;
+
+import com.example.eaproject1.domian.Registration;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+@Repository
+@Transactional
+public interface RegistrationServiceRepository extends JpaRepository<Registration, Integer> {
+}
