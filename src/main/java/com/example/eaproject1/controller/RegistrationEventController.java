@@ -1,7 +1,7 @@
 package com.example.eaproject1.controller;
 
+import com.example.eaproject1.DTO.RequestRegistrationEventDto;
 import com.example.eaproject1.domian.RegistrationEvent;
-import com.example.eaproject1.dto.RequestRegistrationEventDto;
 import com.example.eaproject1.service.RegistrationEventService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
